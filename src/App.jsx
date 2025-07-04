@@ -1,14 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { ToastContainer } from 'react-toastify'
-import Layout from '@/components/organisms/Layout'
-import Dashboard from '@/components/pages/Dashboard'
-import Receiving from '@/components/pages/Receiving'
-import Inventory from '@/components/pages/Inventory'
-import Administration from '@/components/pages/Administration'
-import Reconciliation from '@/components/pages/Reconciliation'
-import LossReport from '@/components/pages/LossReport'
-import Reports from '@/components/pages/Reports'
-import Settings from '@/components/pages/Settings'
+import { Route, Router, Routes } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import React from "react";
+import Layout from "@/components/organisms/Layout";
+import Administration from "@/components/pages/Administration";
+import Reconciliation from "@/components/pages/Reconciliation";
+import Dashboard from "@/components/pages/Dashboard";
+import Inventory from "@/components/pages/Inventory";
+import Receiving from "@/components/pages/Receiving";
+import LossReport from "@/components/pages/LossReport";
+import Reports from "@/components/pages/Reports";
+import Settings from "@/components/pages/Settings";
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
         />
       </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
